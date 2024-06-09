@@ -59,13 +59,13 @@
     background-size: cover;
     border-radius: 0 10px 10px 0;
     border-left: 2px solid transparent;
-    transition: transform .5s ease, border-color .5s ease;
-    transform-origin: 0;
+    transition:  .5s ease, border-color .5s ease;
+    transform-origin: left;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   
   .kanye:hover .kanye__east::before
-   {
+   {  
     transform: rotateY(-45deg);
     border-color: rgba(255,255,255,0.3);
   }
@@ -88,13 +88,4 @@
     fill: #666;
     transition: fill .3s ease;
   }
-  .kanye__btn img:hover
-  {
-    opacity: .1;
-    transition: 0.5s;
-  }
   
-  .kanye__btn:hover 
-  {
-    fill: #000;
-  }
